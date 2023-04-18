@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-family: $font-family, sans-serif;
+  font-size: $font-size-body;
+  font-weight: $weight-s;
+  background-color: $clr-neutral-very-dark-blue;
+  color: $clr-neutral-pale-blue;
+  padding: 10rem 3rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@include minBreakPoint(1000px) {
+  .app-container {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 23px 17px;
+    height: 75%;
+    width: min(90%, 1300px);
+    margin: auto;
+  }
+
+}

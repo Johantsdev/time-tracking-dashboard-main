@@ -1,0 +1,23 @@
+{
+  "name": "time-tracking-dashboard",
+  "version": "1.0.0",
+  "description": "[Click here to see the site](time-tracking-dashboard-johantsdev.netlify.app)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
