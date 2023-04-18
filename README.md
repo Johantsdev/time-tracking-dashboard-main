@@ -1,4 +1,4 @@
-[Click here to see the site](time-tracking-dashboard-johantsdev.netlify.app)
+[Click here to see the site](https://time-tracking-dashboard-johantsdev.netlify.app/)
 
 # Frontend Mentor - Time tracking dashboard solution
 
