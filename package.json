@@ -1,8 +1,7 @@
 {
   "name": "time-tracking-dashboard",
   "version": "1.0.0",
-  "description": "[Click here to see the site](time-tracking-dashboard-johantsdev.netlify.app)",
-  "main": "index.js",
+  "description": "",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
